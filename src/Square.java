@@ -19,25 +19,11 @@ public class Square extends Rectangle implements Colorable{
     }
 
     @Override
-    public void setWidth(double width) {
-        setSide(width);
-    }
-    @Override
-    public void setLength(double length) {
-        setSide(length);
-    }
-
-    @Override
     public String toString() {
         return "A Square with side="
                 + getSide()
                 + ", which is a subclass of "
                 + super.toString();
-    }
-
-    @Override
-    public double getArea() {
-        return super.getArea();
     }
 
     @Override
